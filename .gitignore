@@ -3,10 +3,14 @@
 *.ko
 *.obj
 *.elf
+*.S
+*.s
 
 # Precompiled Headers
 *.gch
 *.pch
+*.d
+*.map
 
 # Libraries
 *.lib
