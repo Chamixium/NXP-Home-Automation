@@ -86,7 +86,7 @@ ZBPRO_DEVICE_TYPE ?= ZED
 
 ###############################################################################
 # Debug options define DEBUG either HW or SW
-#DEBUG ?=SW
+DEBUG ?=SW
 #DEBUG ?=HW
 #
 # Define which UART to use for HW debug
