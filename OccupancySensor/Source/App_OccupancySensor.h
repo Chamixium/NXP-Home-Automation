@@ -40,9 +40,9 @@
 /****************************************************************************/
 /***        Macro definition                                              ***/
 /****************************************************************************/
-#define OCCUPANCY_SENSOR_UNOCCUPIED_TO_OCCUPIED_DELAY               10
-#define OCCUPANCY_SENSOR_UNOCCUPIED_TO_OCCUPIED_THRESHOLD           5
-#define OCCUPANCY_SENSOR_OCCUPIED_TO_UNOCCUPIED_DELAY               180
+#define OCCUPANCY_SENSOR_UNOCCUPIED_TO_OCCUPIED_DELAY               1 /* was 10 seconds */
+#define OCCUPANCY_SENSOR_UNOCCUPIED_TO_OCCUPIED_THRESHOLD           1 /* 1 button press */
+#define OCCUPANCY_SENSOR_OCCUPIED_TO_UNOCCUPIED_DELAY               5 /* was 180 seconds*/
 /* Only one reportable attribute that is Occupancy attribute */
 #define OCCUPANCY_NUMBER_OF_REPORTS									1
 /****************************************************************************/

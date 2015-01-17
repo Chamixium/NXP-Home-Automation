@@ -86,7 +86,7 @@ ZBPRO_DEVICE_TYPE ?= ZED
 
 ###############################################################################
 # Debug options define DEBUG either HW or SW
-DEBUG ?=SW
+#DEBUG ?=SW
 #DEBUG ?=HW
 #
 # Define which UART to use for HW debug
@@ -120,8 +120,8 @@ endif
 
 #CFLAGS += -DNXP_HARDWARE
 #CFLAGS += -DDEBUG_EZMODE
-#CFLAGS += -DDEBUG_ZCL
-#CFLAGS += -DDEBUG_CLD_ONOFF
+CFLAGS += -DDEBUG_ZCL
+CFLAGS += -DDEBUG_CLD_ONOFF
 #CFLAGS += -DDEBUG_APP_BUTTON
 #CFLAGS += -DDEBUG_START_UP
 #CFLAGS += -DDEBUG_SENSOR_NODE
@@ -129,7 +129,7 @@ endif
 #CFLAGS += -DDEBUG_SCAN
 #CFLAGS += -DDEBUG_JOIN
 #CFLAGS += -DDEBUG_COMMISSION
-#CFLAGS += -DDEBUG_SENSOR_STATE
+CFLAGS += -DDEBUG_SENSOR_STATE
 
 ###############################################################################
 # Path definitions
