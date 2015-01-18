@@ -33,6 +33,6 @@
 *.x86_64
 *.hex
 
-# Vi files
+#vi tmp files
 *.swp
 *~
